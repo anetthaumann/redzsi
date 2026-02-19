@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kapcsolat – Redzsi rent</title>
+  <meta name="description" content="Kapcsolat: telefonszám, cím, időpont egyeztetés." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__row">
+      <a class="brand" href="index.html">
+        <div class="brand__logo">R</div>
+        <div class="brand__text">
+          <strong>Redzsi rent</strong>
+          <span>Thule box bérlés</span>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Főoldal</a>
+        <a href="kinalat.html">Kínálat</a>
+        <a href="velemenyek.html">Vélemények</a>
+        <a href="galeria.html">Galéria</a>
+        <a class="active" href="kapcsolat.html">Kapcsolat</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1 style="margin:0 0 10px;">Kapcsolat</h1>
+      <p class="muted">Ide írd majd a valós telefonszámot és címet.</p>
+
+      <div class="grid3" style="grid-template-columns: 1fr 1fr; align-items:start;">
+        <div class="card">
+          <h2>Elérhetőség</h2>
+          <p><span class="badge">Telefon</span><br>
+            <a href="tel:+3612345678">+36 1 234 5678</a>
+          </p>
+          <p><span class="badge">Cím</span><br>
+            Budapest, Példa utca 1.
+          </p>
+          <p class="tiny muted">
+            (Ezt mindenképp cseréld a saját adataidra.)
+          </p>
+          <div class="btns">
+            <a class="btn btn--primary" href="kinalat.html">Kínálat</a>
+            <a class="btn btn--ghost" href="galeria.html">Galéria</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Üzenetküldés</h2>
+          <form class="form" action="#" method="post">
+            <label>Név
+              <input name="name" autocomplete="name" required>
+            </label>
+            <label>Email
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <label>Üzenet
+              <textarea name="message" rows="5" required placeholder="Írd meg mikor és melyik box érdekel…"></textarea>
+            </label>
+            <button class="btn btn--primary btn--full" type="submit">Küldés</button>
+            <p class="tiny muted">Később kötjük be, hogy tényleg elküldje (Netlify Forms / Formspree).</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <div>Redzsi 2026</div>
+      <div class="tiny"><a href="index.html">Főoldal</a></div>
+    </div>
+  </footer>
+</body>
+</html>
