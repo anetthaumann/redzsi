@@ -242,7 +242,13 @@ tr:hover{
 
 .brand-spacer{
   height: 30px;
-  background: var(--bg);
-  border-top: 1px solid rgba(0,0,0,.05);
-  border-bottom: 1px solid rgba(0,0,0,.05);
+  background: #f4fff4; /* konkrét szín, ne változó */
+  border-bottom: 1px solid rgba(0,0,0,.10);
+}
+
+/* Mobilon legyen nagyobb, hogy biztos látszódjon */
+@media (max-width: 768px){
+  .brand-spacer{
+    height: 45px;
+  }
 }
