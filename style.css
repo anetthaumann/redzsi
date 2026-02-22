@@ -328,13 +328,14 @@ tr:hover{
 
 .review-image img{
   width: 100%;
-  height: 220px;
+  height: 180px;   /* alap (mobil / kisebb képernyő) */
   object-fit: cover;
   display: block;
 }
 
-@media (max-width:768px){
+/* Nagy képernyőn legyen kisebb */
+@media (min-width: 992px){
   .review-image img{
-    height: 180px;
+    height: 150px;
   }
 }
