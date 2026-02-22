@@ -320,3 +320,21 @@ tr:hover{
 .review-card .tiny.muted{
   color: #555;
 }
+
+.review-image{
+  overflow: hidden;
+  border-radius: 18px 18px 0 0;
+}
+
+.review-image img{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width:768px){
+  .review-image img{
+    height: 180px;
+  }
+}
