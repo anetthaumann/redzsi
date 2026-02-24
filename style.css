@@ -475,3 +475,29 @@ tr:hover{
 main{
   padding-top: 12px;
 }
+
+.docs-grid{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.doc-card{
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.doc-card h2{
+  margin-top: 0;
+}
+
+.doc-cta{
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+@media (max-width: 900px){
+  .docs-grid{
+    grid-template-columns: 1fr;
+  }
+}
