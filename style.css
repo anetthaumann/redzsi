@@ -406,3 +406,33 @@ tr:hover{
     max-height: 190px;
   }
 }
+
+.gallery-intro{
+  text-align: center;
+  font-size: 20px;            /* nagyobb, de nem túl nagy */
+  font-weight: 700;
+  margin: 10px 0 28px;
+  color: #111;
+
+  text-shadow: 0 0 10px rgba(57,255,20,.35);
+  letter-spacing: 0.5px;
+}
+
+/* Mini neon kiemelés alá */
+.gallery-intro::after{
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 10px auto 0;
+  background: #39ff14;
+  box-shadow: 0 0 12px rgba(57,255,20,.7);
+  border-radius: 2px;
+}
+
+/* Mobilon picit kisebb */
+@media (max-width:768px){
+  .gallery-intro{
+    font-size: 18px;
+  }
+}
