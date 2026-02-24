@@ -374,3 +374,26 @@ tr:hover{
 .notes li{
   margin: 10px 0;
 }
+
+.gallery-card{
+  padding: 14px;           /* legyen “keret” érzés */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-card img{
+  width: 100%;
+  height: 220px;           /* egységes dobozmagasság */
+  object-fit: contain;     /* NEM vág le semmit */
+  background: #fff;        /* ha marad üres sáv, legyen igényes */
+  border-radius: 16px;
+  display: block;
+}
+
+/* Mobilon kicsit alacsonyabb */
+@media (max-width: 768px){
+  .gallery-card img{
+    height: 190px;
+  }
+}
