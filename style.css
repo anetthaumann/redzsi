@@ -344,3 +344,24 @@ tr:hover{
   object-fit: contain !important;  /* ne vágjon */
   background: #fff;                /* ha “csíkos” lenne a háttér, legyen szép */
 }
+
+.brand-hero--keywords{
+  padding: 28px 0;
+}
+
+.brand-hero--keywords h2{
+  margin: 0;
+  font-size: 28px;
+  font-weight: 900;
+  color: #000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 rgba(0,0,0,.15), 0 0 20px rgba(0,0,0,.25);
+}
+
+@media (max-width: 768px){
+  .brand-hero--keywords h2{
+    font-size: 18px;
+    line-height: 1.3;
+  }
+}
