@@ -397,3 +397,27 @@ tr:hover{
     height: 190px;
   }
 }
+
+.gallery-card img{
+  width: 100%;
+  max-height: 220px;   /* ne legyen fix magasság */
+  height: auto;        /* arányt tart */
+  object-fit: contain;
+  background: #fff;
+  border-radius: 16px;
+  display: block;
+}
+
+/* Laptopon kisebb */
+@media (min-width: 992px){
+  .gallery-card img{
+    max-height: 180px;
+  }
+}
+
+/* Mobil marad kisebb */
+@media (max-width: 768px){
+  .gallery-card img{
+    max-height: 190px;
+  }
+}
