@@ -26,6 +26,10 @@ body{
 .header{
   background: var(--neon);
   box-shadow: 0 6px 20px rgba(0,0,0,.15);
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .header__row{
@@ -466,4 +470,8 @@ tr:hover{
 
 .footer-links a:hover{
   text-decoration:underline;
+}
+
+main{
+  padding-top: 12px;
 }
