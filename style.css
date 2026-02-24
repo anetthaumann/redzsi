@@ -36,6 +36,19 @@ body{
   flex-wrap:wrap;
 }
 
+/* Mobil spacing javítás */
+@media (max-width: 768px){
+
+  .header__row{
+    gap: 14px;        /* térköz a logo és nav között */
+  }
+
+  .nav{
+    margin-top: 8px;  /* ha lejjebb törik, legyen levegő */
+  }
+
+}
+
 .brand__logo{
   width:80px;
   height:80px;
