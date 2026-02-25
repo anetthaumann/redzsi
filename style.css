@@ -501,3 +501,21 @@ main{
     grid-template-columns: 1fr;
   }
 }
+
+/* Mobil nav kisebb */
+@media (max-width: 768px){
+
+  .nav a{
+    font-size: 14px;        /* kisebb betű */
+    padding: 6px 10px;      /* kisebb belső tér */
+  }
+
+  .header__row{
+    padding: 10px 0;        /* kisebb fejléc magasság */
+  }
+
+  .brand__logo img{
+    height: 36px;           /* kisebb logó mobilon */
+  }
+
+}
