@@ -57,7 +57,7 @@ body{
   }
 
   .brand__logo img{
-    height: 42px;   /* nagyobb mint most, de nem túl nagy */
+    height: 48px;   /* nagyobb mint most, de nem túl nagy */
   }
 
 }
