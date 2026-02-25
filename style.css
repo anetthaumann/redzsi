@@ -43,12 +43,12 @@ body{
 @media (max-width: 768px){
 
   .header__row{
-    padding: 6px 0;      /* ez csökkenti a teljes magasságot */
-    gap: 8px;
+    padding: 6px 0;
+    gap: 4px;                 /* kisebb függőleges távolság */
   }
 
   .nav{
-    margin-top: 4px;
+    margin-top: 0;            /* ezt vedd le 0-ra */
   }
 
   .nav a{
@@ -57,7 +57,7 @@ body{
   }
 
   .brand__logo img{
-    height: 48px;   /* nagyobb mint most, de nem túl nagy */
+    height: 44px;             /* kicsit nagyobb logó */
   }
 
 }
