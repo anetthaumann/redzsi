@@ -44,22 +44,29 @@ body{
 
   .header__row{
     padding: 6px 0;
-    gap: 4px;                 /* kisebb függőleges távolság */
+    gap: 4px;
   }
 
   .nav{
-    margin-top: 0;            /* ezt vedd le 0-ra */
+    margin-top: 0;
   }
 
   .nav a{
-    font-size: 14px;
+    font-size: 13px;
     padding: 5px 8px;
   }
 
-  .brand__logo img{
-    height: 44px;             /* kicsit nagyobb logó */
+  /* EZ A LÉNYEG: a logó “dobozát” is nagyítjuk mobilon */
+  .brand__logo{
+    width: 60px;
+    height: 60px;
   }
 
+  /* és a képet is, de ne lépje túl a dobozt */
+  .brand__logo img{
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
 
 
@@ -512,41 +519,5 @@ main{
   }
 }
 
-/* Mobil nav kisebb */
-@media (max-width: 768px){
 
-  .nav a{
-    font-size: 14px;        /* kisebb betű */
-    padding: 6px 10px;      /* kisebb belső tér */
-  }
 
-  .header__row{
-    padding: 10px 0;        /* kisebb fejléc magasság */
-  }
-
-  .brand__logo img{
-    height: 36px;           /* kisebb logó mobilon */
-  }
-
-}
-
-@media (max-width: 768px){
-
-  .header__row{
-    padding: 8px 0;   /* kisebb header magasság */
-    gap: 10px;
-  }
-
-  .nav{
-    margin-top: 4px;  /* kevesebb üres hely */
-  }
-
-  .nav a{
-    font-size: 14px;
-    padding: 5px 8px;
-  }
-
-  .brand__logo img{
-    height: 48px;     /* logó: “félúton” az eredeti és a mostani között */
-  }
-}
