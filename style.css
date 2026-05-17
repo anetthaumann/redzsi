@@ -702,4 +702,43 @@ main{
 }
 
 
+/* GYAKORI KÉRDÉSEK */
+
+.faq-card{
+  margin-top: 10px;
+}
+
+.faq-list{
+  display: grid;
+  gap: 12px;
+}
+
+.faq-list details{
+  background: #ffffff;
+  border: 1px solid rgba(57,255,20,.35);
+  border-radius: 16px;
+  padding: 16px 18px;
+  box-shadow: 0 8px 22px rgba(0,0,0,.06);
+}
+
+.faq-list summary{
+  cursor: pointer;
+  font-weight: 800;
+  color: #111;
+}
+
+.faq-list summary::marker{
+  color: #39ff14;
+}
+
+.faq-list p{
+  margin: 12px 0 0;
+  color: #333;
+}
+
+@media (max-width: 768px){
+  .faq-list details{
+    padding: 14px 15px;
+  }
+}
 
