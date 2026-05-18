@@ -851,3 +851,30 @@ main{
 .seo-mini-card h3{
   margin-top:0;
 }
+
+/* HOGYAN MŰKÖDIK IKONOK */
+
+.step-icon{
+  display:flex;
+
+  justify-content:center;
+  align-items:center;
+
+  width:62px;
+  height:62px;
+
+  margin:0 auto 16px;
+
+  border-radius:18px;
+
+  background:
+    linear-gradient(145deg,#39ff14,#1ed300);
+
+  color:#000;
+
+  font-size:30px;
+
+  box-shadow:
+    0 0 18px rgba(57,255,20,.45),
+    0 10px 24px rgba(0,0,0,.12);
+}
