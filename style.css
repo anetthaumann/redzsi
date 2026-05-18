@@ -878,3 +878,9 @@ main{
     0 0 18px rgba(57,255,20,.45),
     0 10px 24px rgba(0,0,0,.12);
 }
+
+/* BELSŐ KÁRTYÁK SZÖVEG IGAZÍTÁS */
+
+.seo-mini-card{
+  text-align:center;
+}
