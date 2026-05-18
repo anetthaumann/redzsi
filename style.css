@@ -780,3 +780,26 @@ main{
 
 }
 
+/* SEO INFORMÁCIÓS SZEKCIÓ */
+
+.seo-info-card{
+  position: relative;
+  overflow: hidden;
+}
+
+.seo-info-card::after{
+  content:"";
+  position:absolute;
+  inset:-80px;
+  background: radial-gradient(circle at top right, rgba(57,255,20,.16), transparent 45%);
+  pointer-events:none;
+}
+
+.seo-mini-card{
+  box-shadow: none;
+  border: 1px solid rgba(57,255,20,.25);
+}
+
+.seo-mini-card h3{
+  margin-top:0;
+}
