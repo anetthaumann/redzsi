@@ -879,3 +879,12 @@ main{
     0 0 18px rgba(57,255,20,.45),
     0 10px 24px rgba(0,0,0,.12);
 }
+
+/* INDEX BLOKKOK KÖZÉPRE */
+
+.review-card h2,
+.review-card h3,
+.review-card .lead,
+.review-card p{
+  text-align:center;
+}
