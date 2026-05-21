@@ -939,3 +939,17 @@ main{
     text-align: center;
   }
 }
+
+.roof-gallery-card{
+  display:block;
+  text-align:center;
+}
+
+.roof-gallery-card h3{
+  margin:16px 0 10px;
+}
+
+.roof-gallery-card p{
+  margin:0;
+  line-height:1.6;
+}
