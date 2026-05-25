@@ -953,3 +953,26 @@ main{
   margin:0;
   line-height:1.6;
 }
+
+/* STEP GOMBOK KÖZÉPRE */
+
+.step-buttons{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  gap:10px;
+
+  flex-wrap:wrap;
+
+  width:100%;
+}
+
+.step-btn{
+  margin-top:10px;
+
+  display:inline-flex;
+
+  justify-content:center;
+  align-items:center;
+}
