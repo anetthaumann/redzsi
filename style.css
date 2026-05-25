@@ -967,3 +967,21 @@ main{
 
   width:100%;
 }
+
+/* FŐOLDALI ÁTIRÁNYÍTÓ GOMBOK KÖZÉPRE */
+
+.seo-mini-card .btn{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px auto 0;
+}
+
+.step-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+}
