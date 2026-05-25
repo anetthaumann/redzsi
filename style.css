@@ -967,12 +967,3 @@ main{
 
   width:100%;
 }
-
-.step-btn{
-  margin-top:10px;
-
-  display:inline-flex;
-
-  justify-content:center;
-  align-items:center;
-}
