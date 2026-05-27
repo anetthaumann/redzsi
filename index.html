@@ -95,6 +95,29 @@
     </div>
   </section>
 
+
+  <section class="section">
+  <div class="container">
+
+    <div class="card review-card slogan-block">
+
+      <div class="slogan-block__image gallery-card">
+        <img src="images/fokep.jpg" alt="Redzsi Rent Szeged Thule tetőbox használat közben">
+      </div>
+
+      <div class="slogan-block__text">
+        <h2>Redzsi Rent Szeged</h2>
+
+        <p class="slogan-text">
+          Ha kell a plusz hely.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
   <!-- 3) Kulcsszavak neon sávban (ugyanúgy, mint a REDZSI RENT SZEGED) -->
   <section class="brand-hero brand-hero--keywords">
     <div class="container">
@@ -327,6 +350,13 @@
   </div>
 </section>
 
+<!-- KÉPNAGYÍTÓ -->
+
+<div class="lightbox" id="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+</div>
+
 </main>
 
   <footer class="footer">
@@ -335,6 +365,24 @@
   <a href="impresszum.html">Impresszum</a>
 </div>
 </footer>
+
+<script>
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+
+document.querySelectorAll('.gallery-card img').forEach(img => {
+
+  img.addEventListener('click', () => {
+    lightbox.style.display = 'flex';
+    lightboxImg.src = img.src;
+  });
+
+});
+
+lightbox.addEventListener('click', () => {
+  lightbox.style.display = 'none';
+});
+</script>
 
 <script src="js/menu.js"></script>
 
