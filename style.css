@@ -995,6 +995,7 @@ main{
 
 .slogan-block__image{
   margin:0;
+  display:block;
 }
 
 .slogan-block__image img{
