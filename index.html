@@ -370,7 +370,7 @@
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightbox-img');
 
-document.querySelectorAll('.gallery-card img').forEach(img => {
+document.querySelectorAll('.gallery-card img, .slogan-block__image img').forEach(img => {
 
   img.addEventListener('click', () => {
     lightbox.style.display = 'flex';

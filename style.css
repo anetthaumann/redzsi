@@ -1001,8 +1001,8 @@ main{
 
 .slogan-block__image img{
   width:100%;
-  max-width:520px;
-  max-height:300px;
+  max-width:430px;
+  max-height:260px;
   object-fit:cover;
   border-radius:22px;
   cursor:pointer;
