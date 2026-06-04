@@ -1053,3 +1053,9 @@ main{
   }
 
 }
+
+.review-date{
+  font-size:12px;
+  color:#777;
+  margin-top:4px;
+}
