@@ -1062,7 +1062,7 @@ main{
 
 .repair-box-image{
   width:100%;
-  max-width:340px !important;
+  max-width:300px !important;
   height:auto;
   margin:0 auto;
   display:block;
