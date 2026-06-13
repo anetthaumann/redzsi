@@ -1060,3 +1060,7 @@ main{
   margin-top:4px;
 }
 
+.repair-box-image{
+  max-width:340px;
+  margin:0 auto;
+}
