@@ -1061,6 +1061,9 @@ main{
 }
 
 .repair-box-image{
-  max-width:340px;
+  width:100%;
+  max-width:340px !important;
+  height:auto;
   margin:0 auto;
+  display:block;
 }
