@@ -90,17 +90,18 @@ body{
 
 .nav{
   display:flex;
-  gap:12px;
+  gap:7px;
   flex-wrap:wrap;
 }
 
 .nav a{
   text-decoration:none;
-  padding:10px 14px;
-  border-radius:14px;
+  padding:8px 10px;
+  border-radius:12px;
   background:#000;
   color:var(--neon);
   font-weight:700;
+  font-size:14px;
   transition:.2s;
 }
 
