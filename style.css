@@ -1145,3 +1145,17 @@ main{
   }
 
 }
+
+/* ÁRAK OLDAL - JAVÍTÁS LISTA */
+
+.price-content .notes{
+  text-align:left;
+  max-width:360px;
+  margin:15px auto 0;
+  padding-left:22px;
+}
+
+.price-content .notes li{
+  text-align:left;
+  margin:8px 0;
+}
