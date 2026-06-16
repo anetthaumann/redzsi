@@ -1186,3 +1186,15 @@ main{
   box-shadow:
     0 10px 30px rgba(0,0,0,.12);
 }
+
+.price-image--hidden{
+  display:none;
+}
+
+.price-layout:has(.price-image--hidden){
+  grid-template-columns:1fr;
+}
+
+.price-layout:has(.price-image--hidden) .price-content{
+  max-width:650px;
+}
