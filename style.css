@@ -1198,3 +1198,12 @@ main{
 .price-layout:has(.price-image--hidden) .price-content{
   max-width:650px;
 }
+
+.price-layout--no-image{
+  grid-template-columns:1fr;
+}
+
+.price-layout--no-image .price-content{
+  max-width:650px;
+  margin:0 auto;
+}
