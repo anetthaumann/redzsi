@@ -1252,3 +1252,23 @@ main{
   justify-content:center;
   margin-top:18px;
 }
+
+.news-year > .news-season{
+  margin-left:24px;
+}
+
+.news-season > .news-month{
+  margin-left:24px;
+}
+
+@media (max-width:768px){
+
+  .news-year > .news-season{
+    margin-left:10px;
+  }
+
+  .news-season > .news-month{
+    margin-left:10px;
+  }
+
+}
