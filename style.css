@@ -1207,3 +1207,48 @@ main{
   max-width:650px;
   margin:0 auto;
 }
+
+/* MI TÖRTÉNT NÁLUNK? */
+
+.news-card{
+  text-align:left;
+}
+
+.news-card h2{
+  text-align:center;
+}
+
+.news-year,
+.news-season,
+.news-month{
+  margin-top:12px;
+}
+
+.news-year > summary,
+.news-season > summary,
+.news-month > summary{
+  cursor:pointer;
+  font-weight:800;
+  padding:12px 16px;
+  border:1px solid rgba(57,255,20,.45);
+  border-radius:14px;
+  background:#f4fff4;
+}
+
+.news-list{
+  margin:14px auto 0;
+  padding-left:22px;
+  max-width:850px;
+}
+
+.news-list li{
+  margin:10px 0;
+}
+
+.news-buttons{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  justify-content:center;
+  margin-top:18px;
+}
