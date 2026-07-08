@@ -1274,3 +1274,10 @@ main{
   }
 
 }
+
+.news-intro{
+  text-align:center;
+  color:var(--muted);
+  max-width:700px;
+  margin:0 auto 22px;
+}
