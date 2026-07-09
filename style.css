@@ -1218,50 +1218,50 @@ main{
   text-align:center;
 }
 
-.news-year,
-.news-season,
-.news-month{
-  margin-top:12px;
+.news-intro{
+  text-align:center;
+  color:var(--muted);
+  max-width:700px;
+  margin:0 auto 22px;
 }
 
-.news-year > summary,
-.news-season > summary,
-.news-month > summary{
-  display:inline-flex;
-  align-items:center;
-
-  cursor:pointer;
-  font-weight:700;
-
-  padding:10px 16px;
-
-  background:#f4fff4;
-
+.season-card{
+  background:#ffffff;
   border:1px solid rgba(57,255,20,.35);
   border-left:4px solid var(--neon);
-
-  border-radius:10px;
-
-  width:auto;
+  border-radius:16px;
+  margin:14px 0;
+  padding:0;
+  box-shadow:0 8px 20px rgba(0,0,0,.06);
+  overflow:hidden;
 }
 
-.news-year > summary{
+.season-card summary{
+  cursor:pointer;
+  font-weight:800;
   font-size:17px;
+  padding:14px 18px;
+  list-style:none;
 }
 
-.news-season > summary{
-  font-size:16px;
+.season-card summary::-webkit-details-marker{
+  display:none;
 }
 
-.news-month > summary{
-  font-size:15px;
+.season-card summary::after{
+  content:"＋";
+  float:right;
+  font-weight:900;
+}
+
+.season-card[open] summary::after{
+  content:"−";
 }
 
 .news-list{
   list-style:none;
-  margin:14px auto 0;
-  padding-left:22px;
-  max-width:850px;
+  margin:0;
+  padding:0 22px 18px 22px;
 }
 
 .news-list li{
@@ -1269,37 +1269,7 @@ main{
   line-height:1.5;
 }
 
-.news-buttons{
-  display:flex;
-  flex-wrap:wrap;
-  gap:10px;
-  justify-content:center;
-  margin-top:18px;
-}
-
-.news-year > .news-season{
-  margin-left:24px;
-}
-
-.news-season > .news-month{
-  margin-left:24px;
-}
-
-@media (max-width:768px){
-
-  .news-year > .news-season{
-    margin-left:10px;
-  }
-
-  .news-season > .news-month{
-    margin-left:10px;
-  }
-
-}
-
-.news-intro{
-  text-align:center;
-  color:var(--muted);
-  max-width:700px;
-  margin:0 auto 22px;
+.season-card .muted{
+  padding:0 22px 18px 22px;
+  margin:0;
 }
