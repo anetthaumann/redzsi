@@ -61,114 +61,127 @@
       tetőboxot vagy tetőcsomagtartót.
     </p>
 
-    <div class="contact-cards">
+    <div class="contact-layout">
 
-      <!-- TELEFON -->
-      <div class="card review-card contact-card">
-        <div class="contact-card__icon">📞</div>
+      <!-- TÉRKÉP KÁRTYA -->
+      <div class="card review-card contact-map-card">
 
-        <h2>Telefon</h2>
-
-        <a class="contact-card__main-link" href="tel:+36305852621">
-          +36 30 58 52 621
-        </a>
+        <h2 style="margin-top:0;">📍 Átvétel helye a térképen</h2>
 
         <p class="muted">
-          Hétköznap 16 óra után,<br>
-          hétvégén 8–18 óra között hívhat.
+          A térképet mozgathatja, nagyíthatja és kicsinyítheti.
         </p>
 
-        <div class="contact-card__buttons">
-          <a class="btn btn--ghost" href="tel:+36305852621">
-            Hívás ➜
-          </a>
-
-          <a class="btn btn--ghost" href="sms:+36305852621">
-            SMS ➜
-          </a>
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps?q=6725+Szeged,+Nemes+Takács+utca+38&output=embed"
+            title="Redzsi Rent Szeged átvételi helye"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
         </div>
+
       </div>
 
-      <!-- ÁTVÉTEL HELYE -->
-      <div class="card review-card contact-card">
-        <div class="contact-card__icon">📍</div>
+      <!-- KAPCSOLATI INFORMÁCIÓK KÁRTYA -->
+      <div class="card review-card contact-info-card">
 
-        <h2>Átvétel helye</h2>
+        <!-- TELEFON -->
+        <div class="contact-info-section">
 
-        <p class="contact-card__address">
-          6725 Szeged<br>
-          Nemes Takács utca 38.
-        </p>
+          <div class="contact-info-heading">
+            <span class="contact-info-icon">📞</span>
+            <h2>Telefon</h2>
+          </div>
 
-        <p class="muted">
-          Az átvétel minden esetben előzetesen egyeztetett időpontban történik.
-        </p>
+          <a class="contact-phone" href="tel:+36305852621">
+            +36 30 58 52 621
+          </a>
 
-        <a
-          class="btn btn--ghost"
-          href="https://www.google.com/maps/dir/?api=1&destination=6725+Szeged,+Nemes+Takács+utca+38"
-          target="_blank"
-          rel="noopener noreferrer">
-          Útvonaltervezés ➜
-        </a>
-      </div>
+          <p>
+            Hétköznap 16 óra után, hétvégén 8–18 óra között hívhat.
+          </p>
 
-      <!-- ELÉRHETŐSÉG -->
-      <div class="card review-card contact-card">
-        <div class="contact-card__icon">🕒</div>
+          <p class="muted">
+            Ha éppen nem tudjuk felvenni a telefont, amint lehetőségünk van rá,
+            visszahívjuk.
+          </p>
 
-        <h2>Elérhetőség</h2>
+          <div class="contact-actions">
+            <a class="btn btn--ghost" href="tel:+36305852621">
+              Hívás ➜
+            </a>
 
-        <p>
-          <strong>Telefonon:</strong><br>
-          hétköznap 16 óra után,<br>
-          hétvégén 8–18 óra között.
-        </p>
+            <a class="btn btn--ghost" href="sms:+36305852621">
+              SMS ➜
+            </a>
+          </div>
 
-        <p class="muted">
-          Üzenetet bármikor küldhet. Amint lehetőségünk van rá, visszajelzünk.
-        </p>
-      </div>
+        </div>
 
-      <!-- FACEBOOK -->
-      <div class="card review-card contact-card">
-        <div class="contact-card__icon">👍</div>
+        <div class="contact-divider"></div>
 
-        <h2>Facebook</h2>
+        <!-- ÁTVÉTEL HELYE -->
+        <div class="contact-info-section">
 
-        <p>
-          Kövesse Facebook-oldalunkat a legfrissebb hírekért,
-          ügyfélfotókért, videókért és ajánlatokért.
-        </p>
+          <div class="contact-info-heading">
+            <span class="contact-info-icon">📍</span>
+            <h2>Átvétel helye</h2>
+          </div>
 
-        <a
-          class="btn btn--ghost"
-          href="https://www.facebook.com/RedzsiRentSzeged"
-          target="_blank"
-          rel="noopener noreferrer">
-          Facebook-oldal ➜
-        </a>
-      </div>
+          <p class="contact-address">
+            6725 Szeged<br>
+            Nemes Takács utca 38.
+          </p>
 
-    </div>
+          <p class="muted">
+            Az átvétel minden esetben előzetesen egyeztetett időpontban történik.
+          </p>
 
-    <!-- TÉRKÉP -->
-    <div class="card review-card contact-map-card">
+          <a
+            class="contact-text-link"
+            href="https://www.google.com/maps/dir/?api=1&destination=6725+Szeged,+Nemes+Takács+utca+38"
+            target="_blank"
+            rel="noopener noreferrer">
+            🧭 Útvonaltervezés
+          </a>
 
-      <h2 style="margin-top:0;">📍 Átvétel helye a térképen</h2>
+        </div>
 
-      <p class="muted">
-        A térképet mozgathatja, nagyíthatja, illetve megnyithatja a Google Térképen is.
-      </p>
+        <div class="contact-divider"></div>
 
-      <div class="contact-map">
-        <iframe
-          src="https://www.google.com/maps?q=6725+Szeged,+Nemes+Takács+utca+38&output=embed"
-          title="Redzsi Rent Szeged átvételi helye"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          allowfullscreen>
-        </iframe>
+        <!-- FACEBOOK -->
+        <div class="contact-info-section">
+
+          <div class="contact-info-heading">
+            <span class="contact-info-icon">💬</span>
+            <h2>Facebook</h2>
+          </div>
+
+          <p>
+            Legfrissebb híreinket, ügyfélfotóinkat, videóinkat és ajánlatainkat
+            Facebook-oldalunkon is megtalálja.
+          </p>
+
+          <a
+            class="facebook-icon-link"
+            href="https://www.facebook.com/RedzsiRentSzeged"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Redzsi Rent Szeged Facebook-oldalának megnyitása">
+
+            <svg
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false">
+              <path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06C2 17.08 5.66 21.24 10.44 22v-7.03H7.9v-2.91h2.54V9.85c0-2.52 1.49-3.91 3.77-3.91 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.9h2.77l-.44 2.91h-2.33V22C18.34 21.24 22 17.08 22 12.06z"/>
+            </svg>
+
+          </a>
+
+        </div>
+
       </div>
 
     </div>
@@ -176,9 +189,11 @@
     <!-- ZÁRÓ KÁRTYA -->
     <div class="card review-card contact-help-card">
 
-      <div class="contact-card__icon">💚</div>
+      <div class="contact-help-icon">💚</div>
 
-      <h2 style="margin-top:0;">Segítünk a megfelelő megoldás kiválasztásában</h2>
+      <h2 style="margin-top:0;">
+        Segítünk a megfelelő megoldás kiválasztásában
+      </h2>
 
       <p>
         Mondja el, milyen autóval és milyen utazásra készül,
