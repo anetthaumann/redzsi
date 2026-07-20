@@ -1596,3 +1596,7 @@ main{
   object-fit:cover;
   border-radius:14px;
 }
+
+.img-top{
+  object-position: top;
+}
