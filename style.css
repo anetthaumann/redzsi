@@ -1638,6 +1638,7 @@ main{
 
 .btn--cta:hover {
   background: #F8F76A;
+  border-color: #F8F76A;
   color: #2b2b2b;
 
   transform: translateY(-2px);
