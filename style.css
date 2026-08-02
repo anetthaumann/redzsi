@@ -1670,3 +1670,10 @@ main{
     padding: 14px 20px;
   }
 }
+
+/* Galéria képek - csak a zöld keret maradjon */
+.gallery-card,
+.gallery-card:hover {
+  box-shadow: none !important;
+  transform: none !important;
+}
