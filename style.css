@@ -1671,17 +1671,19 @@ main{
   }
 }
 
-/* Galéria képek - csak a zöld keret maradjon */
+
+/* Galéria képek - csak a zöld keret maradjon 
 .gallery-card,
 .gallery-card:hover {
   box-shadow: none !important;
   transform: none !important;
 }
 
-/* Főoldali review-cardok glow nélkül */
+Főoldali review-cardok glow nélkül 
 
 main .review-card,
 main .review-card:hover {
   box-shadow: none;
   transform: none;
 }
+*/
