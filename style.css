@@ -1671,6 +1671,10 @@ main{
   }
 }
 
+.grid3 + .grid3 {
+  margin-top: 32px;
+}
+
 
 /* Galéria képek - csak a zöld keret maradjon 
 .gallery-card,
