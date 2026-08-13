@@ -576,13 +576,13 @@ tr:hover{
 
 
 .review-card{
-  background: #ffffff;
+  background: var(--card);
   border: 3px solid #39ff14;
   border-radius: 22px;
 
   box-shadow:
     0 18px 40px rgba(0,0,0,.14),
-    0 0 28px rgba(57,255,20,.45);
+    0 0 16px rgba(57,255,20,.45);
 
   transition: transform .25s ease, box-shadow .25s ease;
 }
@@ -591,7 +591,7 @@ tr:hover{
   transform: translateY(-4px);
   box-shadow:
     0 28px 60px rgba(0,0,0,.18),
-    0 0 40px rgba(57,255,20,.65);
+    0 0 24px rgba(57,255,20,.65);
 }
 
 /* A quote bal oldali csík maradhat, de igazítsuk a fehér kártyához */
