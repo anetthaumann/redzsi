@@ -700,9 +700,7 @@ tr:hover{
   margin: 10px 0 28px;
   color: #111;
 
-  text-shadow:
-  0 0 6px rgba(57,255,20,.6),
-  0 0 18px rgba(57,255,20,.4);
+  text-shadow: none;
   letter-spacing: 0.5px;
 }
 
