@@ -1687,3 +1687,16 @@ main .review-card:hover {
   transform: none;
 }
 */
+
+/* IMPRESSZUM */
+
+.impresszum-card {
+  width: fit-content;
+  max-width: 100%;
+  margin: 30px auto 0;
+  padding: 28px 45px;
+}
+
+.impresszum-card p {
+  margin: 14px 0;
+}
